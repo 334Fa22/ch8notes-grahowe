@@ -304,6 +304,12 @@ footer p a {
       padding: 2%;
     }
 
+    th {
+      background-color: #000;
+      color: #fff;
+      font-size: 1.15em;
+    }
+
 }
 
 /* Media Query for Desktop Viewport */
