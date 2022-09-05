@@ -399,6 +399,10 @@ footer p a {
 
 }
 
+table {
+  width: 80%;
+}
+
 /* Media Query for Print */
 @media print {
 
