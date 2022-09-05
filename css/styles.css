@@ -342,7 +342,7 @@ footer p a {
     th {
       background-color: #000;
       color: #fff;
-      font-size: 1.15;
+      font-size: 1.15em;
     }
 
     tr:nth-child(odd) {
@@ -426,6 +426,21 @@ footer p a {
 
     #exercises {
         clear: left;
+    }
+
+    /* Desktop Viewport: Style rules for form elements */
+    form {
+      width: auto;
+    }
+
+    .form-grid {
+      display: grid;
+      grid-template-columns: auto auto auto;
+      grid-gap: 20px;
+    }
+
+    .btn {
+      grid-column: 1 / span 3;
     }
 
 }
