@@ -299,6 +299,11 @@ footer p a {
       padding: 1%;
     }
 
+    th, td {
+      border: 1px solid #000;
+      padding: 2%;
+    }
+
 }
 
 /* Media Query for Desktop Viewport */
