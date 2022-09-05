@@ -307,7 +307,11 @@ footer p a {
     th {
       background-color: #000;
       color: #fff;
-      font-size: 1.15em;
+      font-size: 1.15;
+    }
+
+    tr:nth-child(odd) {
+      background-color: #ccc;
     }
 
 }
